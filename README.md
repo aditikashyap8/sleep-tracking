@@ -46,7 +46,7 @@ All charts were created in Excel based on the dataset:
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
 - Sleep quality was lower on days with:
   - Caffeine after 2 PM  
