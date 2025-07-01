@@ -29,7 +29,7 @@ Self-assigned score based on how rested I felt upon waking
 | 5      | Extremely well rested, energetic     |
 | 4      | Slept well, felt good                |
 | 3      | Okay sleep, average rest             |
-| 2      | Restless, groggy, not fully rested   |
+| 2      | Restless, not fully rested           |
 | 1      | Poor sleep, exhausted                |
 
 ---
