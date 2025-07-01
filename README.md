@@ -1,6 +1,8 @@
 # Sleep Data Tracking Project
 
-This project is based on a two-month period during the summer of 2023 when I began tracking my own sleep habits to improve my sleep health. I logged bedtime, wake time, screen time, and caffeine intake daily and rated how I felt each morning.
+This project is based on a two-month period during the summer of 2023 when I began tracking my own sleep habits to improve my sleep health. I logged bedtime, wake time, screen time, and caffeine intake daily and rated how I felt each morning. 
+
+My goal was to figure out why I constantly felt unrested.
 
 What began as a self care experiment turned into my first data project and the experience that sparked my interest in data science.
 
@@ -8,23 +10,20 @@ What began as a self care experiment turned into my first data project and the e
 
 ## Dataset
 
-**Dates Tracked:** June 1 – July 31, 2023  
-**File:** [`sleep_data_2months_basic.xlsx`](./sleep_data_2months_basic.xlsx)
+The dataset includes 61 consecutive days (June 1 – July 31, 2023). For each day, I recorded:
 
 **Columns:**
-
 - `Date`: Calendar day of the entry  
 - `Bedtime`: Time I went to bed (12-hour format)  
 - `Wake Time`: Time I woke up  
 - `Sleep Duration (hrs)`: Calculated total hours of sleep  
-- `Screen Time Before Bed (hrs)`: Estimated time on phone before bed  
-- `Caffeine After 3PM`: Whether I had caffeine after 2PM (`Yes`/`No`)  
-- `Sleep Quality (1–5)`: How rested I felt in the morning (see scale below)
-
----
+- `Screen Time Before Bed (hrs)`: Estimated time on phone/laptop before bed  
+- `Caffeine After 3PM`: Whether I had caffeine after 2PM that day (`Yes`/`No`)  
+- `Sleep Quality (1–5)`: Subjective rating (see scale below)
 
 ## Sleep Quality Scale (1–5)
 
+Self-assigned score based on how rested I felt upon waking
 | Rating | Description                          |
 |--------|--------------------------------------|
 | 5      | Extremely well rested, energetic     |
@@ -37,18 +36,18 @@ What began as a self care experiment turned into my first data project and the e
 
 ## Visualizations
 
-All charts were created in Excel based on the dataset:
+All charts were created in Excel based on the dataset
 
-- **Line Chart:** Sleep Duration over time  
-- **Bar Chart:** Average Sleep Quality — Caffeine vs No Caffeine  
-- **Scatter Plot:** Screen Time vs Sleep Quality  
-- **Pie Chart:** % of Days with Late Caffeine  
+Highlighted some key patterns:
+- Correlation between Sleep Duration and Quality  
+- Average Sleep Quality and Sleep Duration — Caffeine vs No Caffeine  
+- Screen Time vs Sleep Quality  
 
 ---
 
 ## Key Insights
 
-- Sleep quality was lower on days with:
+- Sleep quality was significatly lower on days with:
   - Caffeine after 2 PM  
   - Screen time over 2 hours before bed  
 - The best sleep occurred when:
@@ -60,12 +59,6 @@ All charts were created in Excel based on the dataset:
 
 ## Reflection
 
-This wasn’t meant to be a data science project — it was just a personal tracker. But once I started seeing patterns and making charts, I realized how data could help me improve my life.
+Realizing that caffeine and screen time were directly affecting my sleep quality, and how I felt throughout the day, helped me make healthier changes.
 
-This spreadsheet — made before I ever studied analytics — sparked my passion for data and led me to major in **Data Science & Economics**.
-
----
-
-## Files
-
-- [`sleep_data_2months_basic.xlsx`](./sleep_data_2months_basic.xlsx) — Full dataset + charts
+This wasn’t originally intended to be a data science project. It started as a personal habit tracker. But analyzing patterns and building visualizations showed me how powerful data can be in understanding and improving everyday life.
