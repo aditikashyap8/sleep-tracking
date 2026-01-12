@@ -2,9 +2,7 @@
 
 This project is based on a two-month period during the summer of 2023 when I began tracking my own sleep habits to improve my sleep health. I logged bedtime, wake time, screen time, and caffeine intake daily and rated how I felt each morning. 
 
-My goal was to figure out why I constantly felt unrested.
-
-What began as a self care experiment turned into my first data project and the experience that sparked my interest in data science.
+My goal was to improve health.
 
 ---
 
@@ -61,4 +59,4 @@ Highlighted some key patterns:
 
 Realizing that caffeine and screen time were directly affecting my sleep quality, and how I felt throughout the day, helped me make healthier changes.
 
-This wasn’t originally intended to be a data science project. It started as a personal habit tracker. But analyzing patterns and building visualizations showed me how powerful data can be in understanding and improving everyday life.
+This wasn’t originally intended to be a data science project. It started as a personal habit tracker. Analyzing patterns and building visualizations showed me how powerful data can be in understanding and improving everyday life.
