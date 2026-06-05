@@ -2,7 +2,7 @@
 
 This project is based on a two-month period during the summer of 2023 when I began tracking my own sleep habits to improve my sleep health. I logged bedtime, wake time, screen time, and caffeine intake daily and rated how I felt each morning. 
 
-My goal was to improve health.
+My goal was to improve my sleep hygiene.
 
 ---
 
